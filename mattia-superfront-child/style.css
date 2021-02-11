@@ -1,0 +1,37 @@
+/* 
+Theme Name:		 Superfront-child
+Description:	 Superfront-child is a child theme of Superfront
+Author:			 team wordpress 2
+Template:		 superfront
+Version:		 1.0.0
+Text Domain:	 superfront-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+.custom-logo {
+    height: 125px;
+    max-width: 230px;
+    max-height: none;
+}
+.storefront-breadcrumb {
+    display: none;
+}
+.woocommerce-breadcrumb {
+    display: none;
+}
+.main-navigation ul.menu, .main-navigation ul.nav-menu {
+    max-height: none;
+    overflow: visible;
+    margin-left: -1em;
+    -webkit-transition: none;
+    transition: none;
+    Font-size: 20px;
+}
+.secondary-navigation .menu {
+    font-size: 17px;
+    width: auto;
+    float: right;
+}
